@@ -45,14 +45,14 @@ export default function AddPet({ language }) {
             if (modal) {
             modal.style.display = "block";
 
-            // Store pet data in state
+            //Store pet data in state
             setPetData({
               name: data.name,
               type: data.type,
               dob: data.dob
             });
 
-            // Close the form section
+            //Close the form section
             setListIsOpen(false);
           }
         }
