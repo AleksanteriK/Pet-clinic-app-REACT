@@ -1,0 +1,108 @@
+export const languages = {
+   login_english: [{
+      title: "Login to the service",
+      email_placeholder: "Email",
+      password_placeholder: "Password",
+      error_email: "Email address required",
+      error_password: "Password required",
+      error_login: "Password or email invalid",
+      login_button: "Login"
+   }],
+
+   login_suomi: [{
+      title: "Kirjaudu palveluun",
+      email_placeholder: "Sähköposti",
+      password_placeholder: "Salasana",
+      error_email: "Sähköpostiosoite vaaditaan",
+      error_password: "Salasana vaaditaan",
+      error_login: "Sähköpostiosoite tai salasana väärin",
+      login_button: "Kirjaudu",
+   }],
+
+   dashboard_english: [{
+      greeting: "Welcome",
+      logout: "Log out",
+      list_pets: "My pets",
+      doctor_list_pets: "List of pets in the registry",
+      book_appointment_date: "Book appointment",
+      add_comment: "Add additional info",
+      date_required: "Date is required",
+      comment_required: "Additional info required",
+      book_button: "Book",
+      show_all: "Show all",
+      show_alive: "Show alive only",
+      doctor_show_visits: "All visits",
+      current_visits: "Today's visits",
+      no_current_visits: "No visits for today",
+      upcoming_visits: "Upcoming visits",
+      no_upcoming_visits: "No upcoming visits",
+      past_visits: "Past visits",
+      petId: "Pet ID: ",
+      add_pet: "Add new Pet",
+      add_name: "Name",
+      add_species: "Species",
+      add_new_pet: "Add to the registry",
+      successful_add: "New pet was added successfully to the registry",
+      new_pet_details: "Pet's details:"
+   }],
+
+   dashboard_suomi: [{
+      greeting: "Tervetuloa",
+      logout: "Kirjaudu ulos",
+      list_pets: "Lemmikkini",
+      doctor_list_pets: "Lemmikkirekisteri",
+      book_appointment_date: "Varaa aika",
+      add_comment: "Lisää lisätiedot",
+      date_required: "Päivämäärä vaaditaan",
+      comment_required: "Lisätiedot vaaditaan",
+      book_button: "Varaa",
+      show_all: "Näytä kaikki",
+      show_alive: "Näytä elossa olevat",
+      doctor_show_visits: "Kaikki käynnit",
+      current_visits: "Tämän päivän käynnit",
+      no_current_visits: "Ei käyntejä tälle päivälle",
+      upcoming_visits: "Tulevat käynnit",
+      no_upcoming_visits: "Ei tulevia käyntejä",
+      past_visits: "Menneet käynnit",
+      petId: "Lemmikki ID: ",
+      add_pet: "Lisää uusi lemmikki",
+      add_name: "Nimi",
+      add_species: "Laji",
+      add_new_pet: "Lisää",
+      successful_add: "Uusi lemmikki lisättiin onnistuneesti kantaamme!",
+      new_pet_details: "Lemmikin tiedot:"
+   }],
+
+   dashboard_pet_list_english: [{
+      details_button: "Details",
+      species: "Species:",
+      DOB: "Date of Birth",
+      doctor_see_ownerid: "Owner ID ",
+      doctor_see_owner: "Owner's name:",
+      doctor_internal_info: "Internal information (Non-Customer Visible):",
+      visits: "Visits",
+      comments: "Additional info:",
+      update_status: "Change status",
+      edit_internalinfo: "Edit internal info",
+      update_all_button: "Update all",
+      update_successful: "Information updated successfully for ",
+      update_fail: "Update failed "
+   }],
+
+   dashboard_pet_list_suomi: [{
+      details_button: "Tiedot",
+      species: "Laji:",
+      DOB: "Syntymäaika",
+      doctor_see_ownerid: "Omistaja ID ",
+      doctor_see_owner: "Omistajan nimi: ",
+      doctor_internal_info: "Sisäinen tieto (Ei asiakkaalle):",
+      visits: "Käynnit",
+      comments: "Lisätietoja:",
+      update_status: "Päivitä tila",
+      edit_internalinfo: "Muokkaa sisäistä tietoa",
+      update_all_button: "Päivitä kaikki tiedot",
+      update_successful: "Tietojen päivitys onnistui lemmikille ",
+      update_fail: "Tietojen päivitys epäonnistui "
+   }]
+
+}
