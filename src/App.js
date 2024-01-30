@@ -9,7 +9,6 @@ import CheckRole from './services/CheckRole';
 function App ({language, handleLanguageChange})  {
 
   return (
-    
       <Routes>
         {/*Redirect to login if the path is not matched*/}
         <Route path="*" element={<Navigate to="/login" />}/>
@@ -22,7 +21,6 @@ function App ({language, handleLanguageChange})  {
         element={<AuthCheck><CheckRole><ClientHome
         language = {language} handleLanguageChange = {handleLanguageChange}/></CheckRole></AuthCheck>}/>
       </Routes>
-    
   );
 };
 
