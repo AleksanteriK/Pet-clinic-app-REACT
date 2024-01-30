@@ -14,14 +14,7 @@ export default function EditPetInfo ({language, selectedPet}) {
       
    /*Removing quotes from the accesstoken*/
    const sanitizedToken = badformat_token.replace(/"/g, '');
-   /*debug*/
-   console.log('Accesstoken:');
-   console.log(badformat_token);
-   console.log(sanitizedToken);
-   console.log('UserID:');
-   console.log(sessionStorage.getItem('UserID'));
-   /*debug*/
-
+   
    const UpdateAll = () => {
       var successfull_update_fin = languages[`dashboard_pet_list_suomi`]?.[0].update_successful;
       var successfull_update_en = languages[`dashboard_pet_list_english`]?.[0].update_successful;
